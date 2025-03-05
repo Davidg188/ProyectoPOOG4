@@ -65,8 +65,8 @@ class Deportista extends Personas {
         super(nombre, edad, dni, genero, nacionalidad);
         this.deporte = deporte;
         this.posicion = posicion;
-        this.nacionalidad = "Hondureño"; // Nacionalidad de la Deportista
-        this.genero = "Femenino"; // Género de la Deportista
+        this.nacionalidad = "Hondureño";
+        this.genero = "Femenino";
     }
 
     public void DatosInfo() {
@@ -76,7 +76,7 @@ class Deportista extends Personas {
         System.out.println("Deporte: " + deporte);
         System.out.println("Posicion: " + posicion);
         System.out.println("Nacionalidad: " + nacionalidad);
-        System.out.println("Género: " + genero);
+        System.out.println("Genero: " + genero);
     }
 }
 
