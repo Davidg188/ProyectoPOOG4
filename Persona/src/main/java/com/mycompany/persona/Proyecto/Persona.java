@@ -37,3 +37,20 @@ abstract class Personas {
 
     public abstract void DatosInfo();
 }
+
+// Codificación del código
+
+public class Persona {
+    public static void main(String[] args) {
+        
+        System.out.println("\n----------------------\n");
+        
+        Doctor doctor = new Doctor("Carlos", 35, "0501-1990-10799", "Masculino", "Hondureño", "Cardiologia", "AMM22", "Hospital Mario Catarino");
+        doctor.atenderPaciente();
+
+        System.out.println("\n----------------------\n");
+
+        Deportista deportista = new Deportista("Alejandra", 28, "0501-1997-10988", "Femenino", "Hondureña", "Futbol", "Delantero");
+        deportista.DatosInfo();
+    }
+}
